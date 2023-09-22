@@ -1,0 +1,140 @@
+.mobile {
+    display: none;
+  }
+  
+  .desktop {
+    display: contents;
+  }
+  
+  img {
+    width: 5.3rem;
+    /* border: 2px solid red; */
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--white);
+    /* margin-left: 6px; */
+  }
+  
+  .nav-wrapper {
+    position: sticky;
+    top: 0;
+    background-color: var(--violet);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 6.25rem 1.88rem 6.25rem;
+    border-bottom: var(--border-line);
+    z-index: 1000;
+  }
+  
+  .logo-div {
+    flex: 1;
+  }
+  
+  .logo {
+    font-family: var(--header-font);
+    font-size: 2.25rem;
+  }
+  
+  .logo-dark {
+    color: var(--pink);
+  }
+  
+  .nav-bar {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    list-style: none;
+  }
+  
+  .nav-list {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .nav-list:hover {
+    background: linear-gradient(90deg, #903AFF 3.08%, #FF26B9 93.85%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  }
+  
+  button {
+    color: var(--white);
+    border-radius: 0.25rem;
+    width: 10.75rem;
+    height: 3.3125rem;
+    font-family: var(--body-font);
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(
+      270deg,
+      #903aff 0%,
+      #d434fe 56.42%,
+      #ff26b9 99.99%,
+      #fe34b9 100%
+    );
+  }
+
+  button:hover {
+    opacity: .7;
+  }
+
+  button:active {
+    opacity: 1;
+  }
+
+  /* .close-back {
+    background: linear-gradient(
+      #903aff 0%,
+      #d434fe 56.42%,
+      #ff26b9 99.99%,
+      #fe34b9 100%
+    );
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    float: right;
+    margin-top: -1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .close {
+    background-color: var(--violet);
+    border-radius: 50%;
+    padding: 1rem;
+    width: 1rem;
+    float: right;
+  }
+  
+   .nav-bar {
+    background-color: var(--violet);
+    padding: 2rem ;
+    border: 1px solid red;
+    width: 80%;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0;
+    list-style: none;
+  }
+
+  .nav-list {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1rem;
+  }  */

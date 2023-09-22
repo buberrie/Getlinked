@@ -1,0 +1,487 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Unica+One&display=swap");
+@import url("./assets/clash-display.css");
+/* font-family: 'Montserrat', sans-serif; */
+
+:root {
+  /* font family */
+  --header-font: "ClashDisplay-Bold", sans-serif;
+  --body-font: "Montserrat", sans-serif;
+  --counter-font: "Unica One", cursive;
+
+  /* color */
+  --violet: #150e28;
+  --purple: #903aff;
+  --pink: #d434fe;
+  --white: #ffffff;
+  --red: #d43939;
+
+  /*  */
+  --border-line: solid 0.05rem rgba(255, 255, 255, 0.18);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--body-font);
+  background-color: var(--violet);
+  color: var(--white);
+  overflow-x: hidden;
+}
+
+/* --------- UI DESIGNS (STARS AND PURPLE LENS) ---------- */
+.curly {
+  position: relative;
+  margin-left: 34rem;
+  margin-top: -4rem;
+}
+
+.purple-lens1 {
+  position: absolute;
+  /* border: solid 1px red; */
+  width: 48rem;
+  margin-left: -5rem;
+  margin-top: -25rem;
+}
+
+.purple-lens2 {
+  position: absolute;
+  /* border: solid 1px red; */
+  width: 55rem;
+  margin-left: -8.5rem;
+  margin-top: -10rem;
+}
+
+.rules-lens1 {
+  position: absolute;
+  margin-left: -6rem;
+  margin-top: -25rem;
+  width: 60rem;
+}
+
+.rules-lens2 {
+  position: absolute;
+  margin-left: 15rem;
+  margin-top: 8rem;
+  width: 60rem;
+}
+
+.criteria-lens1 {
+  position: absolute;
+  margin-left: -10rem;
+  margin-top: 5rem;
+  width: 60rem;
+}
+
+.criteria-lens2 {
+  position: absolute;
+  margin-left: -10rem;
+  margin-top: 23rem;
+  width: 60rem;
+}
+
+.sponsor-lens {
+  position: absolute;
+  margin-left: -12rem;
+  margin-top: -8rem;
+  width: 50rem;
+}
+
+.sponsor-lens2 {
+  position: absolute;
+  margin-left: 43rem;
+  margin-top: -35rem;
+  width: 60rem;
+}
+
+.policy-lens {
+  position: absolute;
+  margin-left: -20rem;
+  margin-top: -25rem;
+  width: 50rem;
+}
+
+.contact-lens {
+  position: absolute;
+  margin-left: -15rem;
+  margin-top: -15rem;
+  width: 50rem;
+}
+
+.contact-lens2 {
+  position: absolute;
+  margin-left: 43rem;
+  margin-top: 17rem;
+  width: 40rem;
+}
+
+.register-lens2 {
+  position: absolute;
+  margin-left: 47rem;
+  margin-top: 30rem;
+  width: 35rem;
+  pointer-events: none;
+}
+
+.star-odd {
+  position: absolute;
+  animation: twinkle 2.5s infinite linear;
+}
+
+.star-even {
+  position: absolute;
+  animation: twinkle 2.5s 1.25s infinite linear;
+}
+
+.star1 {
+  width: 2rem;
+  height: 2rem;
+  margin-top: -10rem;
+}
+.star2 {
+  width: 2rem;
+  height: 2rem;
+  margin-top: 7rem;
+  margin-left: 15rem;
+}
+.star3 {
+  width: 2rem;
+  height: 2rem;
+  margin-top: -3rem;
+  margin-left: 8rem;
+}
+.star4 {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 8rem;
+}
+.star5 {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 33rem;
+  margin-top: 2rem;
+}
+.star6 {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 15rem;
+  margin-top: -3rem;
+}
+.star7 {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 32rem;
+  margin-top: 20rem;
+}
+.star8 {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 9rem;
+  margin-top: -6rem;
+}
+.star9 {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 25rem;
+  margin-top: 18rem;
+}
+.star10 {
+  width: 2rem;
+  height: 2rem;
+  margin-left: -3rem;
+  margin-top: 45rem;
+}
+.star11 {
+  width: 3rem;
+  height: 3rem;
+  margin-top: -50rem;
+  margin-left: -2rem;
+}
+.star12 {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 10rem;
+  margin-top: 10rem;
+}
+.star13 {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 24rem;
+  margin-top: -1rem;
+}
+.star14 {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 6rem;
+  margin-top: 25rem;
+}
+.star15 {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 40rem;
+  margin-top: 50rem;
+}
+.star16 {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 17rem;
+  margin-top: 10rem;
+}
+.star17 {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 68rem;
+  margin-top: 40rem;
+}
+.star18 {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 8rem;
+  margin-top: 78rem;
+}
+.star19 {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 15rem;
+  margin-top: 6rem;
+}
+.star20 {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 65rem;
+  margin-top: 11.5rem;
+}
+.star21 {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 40rem;
+  margin-top: 20rem;
+}
+.star22 {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 75rem;
+  margin-top: 25rem;
+}
+.star23 {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 32rem;
+  margin-top: 38.5rem;
+}
+.star24 {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 15rem;
+  margin-top: 48rem;
+}
+.star25 {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 10rem;
+  margin-top: 14rem;
+}
+.star26 {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 48rem;
+  margin-top: 20rem;
+}
+.star27 {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 48rem;
+  margin-top: 45rem;
+}
+.star28 {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 21rem;
+  margin-top: -1rem;
+}
+.star29 {
+  width: 1rem;
+  height: 1rem;
+  margin-left: 69rem;
+  margin-top: 5rem;
+}
+.star30 {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 35rem;
+  margin-top: 7rem;
+}
+.star31 {
+  width: 1rem;
+  height: 1rem;
+  margin-left: 50rem;
+  margin-top: 33rem;
+}
+.star32 {
+  width: 2rem;
+  height: 2rem;
+  margin-left: -4rem;
+  margin-top: 45rem;
+}
+.star33 {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-left: 45rem;
+  margin-top: 40rem;
+}
+.star34 {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 74rem;
+  margin-top: 45rem;
+}
+.star35 {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-left: -40rem;
+  margin-top: 2rem;
+}
+.star36 {
+  width: 1rem;
+  height: 1rem;
+  margin-left: 16rem;
+  margin-top: 0rem;
+}
+.star37 {
+  width: 1rem;
+  height: 1rem;
+  margin-left: -2rem;
+  margin-top: 14rem;
+}
+.star38 {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-left: 30rem;
+  margin-top: 12rem;
+}
+.star39 {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 3rem;
+  margin-top: -2rem;
+}
+.star40 {
+  width: 2.2rem;
+  height: 2.2rem;
+  margin-left: 70rem;
+  margin-top: -10rem;
+}
+.star41 {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 28.5rem;
+  margin-top: 35rem;
+}
+.star42 {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 75rem;
+  margin-top: 50rem;
+}
+.star43 {
+  width: 2rem;
+  height: 2rem;
+  margin-left: -15rem;
+  margin-top: 12rem;
+}
+.star44 {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 20rem;
+  margin-top: -5rem;
+}
+.star45 {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 8rem;
+  margin-top: 8rem;
+}
+.star38 {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-left: 30rem;
+  margin-top: 12rem;
+}
+.star38 {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-left: 30rem;
+  margin-top: 12rem;
+}
+.star38 {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-left: 30rem;
+  margin-top: 12rem;
+}
+
+/* -------- ANIMATIONS ----------- */
+
+@-webkit-keyframes typIn {
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes typIn {
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes blink {
+  to {
+    background: transparent;
+  }
+}
+
+@-webkit-keyframes blink {
+  to {
+    background: transparent;
+  }
+}
+
+@keyframes slideIn {
+  to {
+    margin-right: 40rem;
+  }
+}
+
+@-webkit-keyframes slideIn {
+  to {
+    margin-right: 40rem;
+  }
+}
+
+@keyframes twinkle {
+  to {
+    width: 0.05rem;
+    height: 0.05rem;
+  }
+}
+
+@-webkit-keyframes twinkle {
+  to {
+    width: 0.05rem;
+    height: 0.05rem;
+  }
+}
+
+@keyframes rotation {
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@-webkit-keyframes rotation {
+  to {
+    transform: rotate(359deg);
+  }
+}

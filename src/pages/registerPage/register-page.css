@@ -1,0 +1,184 @@
+.custom-btn {
+  width: 10.75rem;
+  height: 3.3125rem;
+  border-radius: 0.25rem;
+  background: linear-gradient(
+    #903aff 0%,
+    #d434fe 56.42%,
+    #ff26b9 99.99%,
+    #fe34b9 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+
+.custom-button {
+  background: var(--violet);
+  width: 10.585rem;
+  height: 3.155rem;
+}
+
+.register {
+  display: flex;
+  padding: 12rem 8rem 10rem 8rem;
+  gap: 7%;
+}
+
+.register-img {
+  border: 1px solid red;
+  width: 28%;
+  padding-top: 8rem;
+}
+
+.register .form-container {
+  padding: 7rem 7rem 6rem 7rem;
+  width: calc(65% - 14rem);
+  border-radius: 0.75rem;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.register .form-container .heading {
+  font-family: var(--heading-font);
+  font-size: 2rem;
+  color: var(--pink);
+  margin-bottom: 3rem;
+}
+
+.register .form-container .be-part {
+  display: flex;
+  font-size: 0.875rem;
+  align-items: baseline;
+  margin-bottom: 1rem;
+}
+
+.walking-emoji {
+  padding: 0 1rem;
+  margin-left: 0.5rem;
+  border-bottom: 0.0625rem dotted var(--pink);
+}
+
+.walking-emoji .img {
+  width: 1.625rem;
+  height: 1.625rem;
+  /* margin: 0 .5rem; */
+}
+
+.register .form-container .subheading {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.form-container form {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 5%;
+}
+
+.input-container {
+  width: 47%;
+  margin: 1rem 0;
+}
+
+.form-container form input {
+  padding: 1rem 1.5rem;
+  color: #fff;
+  width: calc(100% - 3rem);
+  margin: 1rem 0;
+  border-radius: 0.25rem;
+  border: 1px solid #fff;
+  outline: none;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.form-container form input:hover {
+outline: 2px solid #fff;
+}
+
+.form-container form label {
+  font-size: 0.875rem;
+}
+
+.select-container {
+    margin-bottom: 20px;
+    width: 47%;
+  }
+
+  .select-label {
+    display: block;
+    /* font-weight: bold; */
+    margin-bottom: 15px;
+  }
+
+  select {
+    width: 100%; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  background: transparent; 
+  font-size: 1rem; 
+  color: var(--white); 
+  outline: none; 
+  cursor: pointer;
+  }
+
+  select option {
+    background-color: var(--violet);
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+  }
+
+  select option:hover  {
+    background-color: var(--pink);
+  }
+
+.reminder {
+  color: var(--pink);
+  font-size: 0.75rem;
+  font-style: italic;
+}
+
+.agree {
+  display: flex;
+  align-items: center;
+  margin: .8rem 0;
+  cursor: pointer;
+}
+
+.agree .check-box {
+  width: 0.875rem;
+  height: 0.875rem;
+  border-radius: 0.125rem;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.agree .check-box .checker {
+    width: 0.775rem;
+    height: 0.775rem;
+}
+
+.agree span {
+    margin-left: .5rem;
+    font-size: 0.75rem;
+}
+
+.form-container form .btn {
+  width: 100%;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+form .btn .button {
+  width: 100%;
+}
