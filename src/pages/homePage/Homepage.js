@@ -1,4 +1,3 @@
-import NavBar from "../../components/navBar/NavBar";
 import Footer from "../../components/footer/Footer";
 import "./home-page.css";
 import { useState, useEffect } from "react";
@@ -32,6 +31,7 @@ import wisper from "../../assets/wisper.png";
 import checkIcon from "../../assets/check-icon.svg";
 import question1 from "../../assets/question1.svg";
 import question2 from "../../assets/question2.svg";
+
 const Homepage = () => {
 
   // Initialize state variables
@@ -45,7 +45,6 @@ const Homepage = () => {
     const now = new Date().getTime();
     // remaining time
     const distance = countDownDate - now;
-    console.log(distance)
 
     if (distance < 0) {
       return { hours: '00', minutes: '00', seconds: '00' };
@@ -80,7 +79,6 @@ const Homepage = () => {
 
   return (
     <>
-      <NavBar />
       <div className="header-wrapper" id="homepage">
         <div className="top-title">
           <span className="header-title">

@@ -4,18 +4,33 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Homepage from './pages/homePage/Homepage';
 import ContactPage from './pages/contactPage/ContactPage'
 import RegisterPage from './pages/registerPage/RegisterPage'
+import NavBar from './components/navBar/NavBar';
 
 function App() {
 
-  // const [navShow, setnavShow] = useState(true) // toggle navbar
-  // const onShow = () => setnavShow(!navShow)
+  const [navShow, setnavShow] = useState(false) // toggle navbar
+  const onShow = () => {
+    if (navShow === true) {
+      setTimeout(() => {
+        setnavShow(false)
+      }, 300)
+    } else {
+      setnavShow(true)
+    }
+  }
 
-  // const hideNav = (navShow ? !onShow : onShow) //hide navbar when anywhere on the screen is clicked
+  const hideNav = () => {
+    if (navShow === true) {
+      setTimeout(() => {
+        setnavShow(false)
+      }, 300)
+    }
+  }  //hide navbar when anywhere on the screen is clicked
 
   return (
-    <div>
+    <div onClick={hideNav}>
       <Router>
-        {/* <Topbar onShow={onShow} navShow={navShow} /> */}
+        <NavBar onShow={onShow} navShow={navShow} />
         <Routes>
         <Route path='/' element={<Homepage />} />
           <Route path='/:sectionId' element={<Homepage />} />

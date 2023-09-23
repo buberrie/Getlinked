@@ -3,18 +3,16 @@
   }
   
   .top-title {
-    /* border: 2px solid red; */
     overflow: hidden;
   }
   
   .header-title {
-    /* border: 2px solid red; */
     display: flex;
     justify-content: flex-end;
     font-family: var(--body-font);
     font-style: italic;
     width: calc(100% - 6rem);
-    font-size: 2.75rem;
+    font-size: 2.70rem;
     font-weight: 700;
     position: relative;
     padding-right: 2px;
@@ -22,11 +20,10 @@
   }
   
   .curvey {
-    /* border: 2px solid red; */
     position: relative;
     display: flex;
     justify-content: flex-end;
-    width: 16rem;
+    width: 15.5rem;
     margin-top: -4.3rem;
     margin-right: 3rem;
     float: right;
@@ -60,34 +57,32 @@
   }
   
   .header-text {
-    /* border: solid 1px red; */
     flex: 1;
-    padding: 5rem 0 4.8rem 6rem;
+    padding: 5rem 0rem 4.8rem 6rem;
   }
   
   .header-image {
-    /* border: solid 1px red; */
     background-image: url(../../assets/man-in-white.png);
     flex: 1;
     background-blend-mode: luminosity;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-left: -12rem;
-    margin-top: 1.5rem;
+    margin-left: -14rem;
+    margin-top: 2rem;
     overflow: hidden;
   }
   
   .bulb {
     position: absolute;
     margin-top: -3rem;
-    margin-left: 32rem;
-    width: 3.3rem;
+    margin-left: 30rem;
+    width: 3.1rem;
   }
   
   .big-text {
     font-family: var(--header-font);
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: 700;
     line-height: normal;
   }
@@ -104,14 +99,14 @@
     position: absolute;
     margin-left: 0.5rem;
     margin-top: 0.5rem;
-    width: 5rem;
+    width: 4.8rem;
   }
   
   .big-text2-emoji2 {
     position: absolute;
     margin-left: 5.5rem;
     margin-top: 1rem;
-    width: 3.8rem;
+    width: 3.6rem;
   }
   
   .small-text {
@@ -248,7 +243,7 @@
   /* ---------CRITERIA BEGINS---------------------------- */
   .criteria-img {
     /* border: 1px solid red; */
-    width: 45rem;
+    width: 42rem;
     margin-right: -3rem;
   }
   
@@ -299,8 +294,8 @@
   
   .cwok-casual-img {
     /* border: 1px solid red; */
-    width: 50rem;
-    margin-left: 2rem;
+    width: 47rem;
+    margin-left: 3rem;
     margin-right: -8rem;
   }
   
@@ -314,8 +309,8 @@
   
   .q-mark-small {
     position: absolute;
-    margin-left: 5rem;
-    margin-top: -1rem;
+    margin-left: 5.5rem;
+    margin-top: -1.5rem;
     width: 8.125rem;
     height: 5.4375rem;
   }
@@ -323,7 +318,7 @@
   .q-mark-small2 {
     position: absolute;
     margin-left: 28rem;
-    margin-top: -1rem;
+    margin-top: -1.8rem;
     width: 8.125rem;
     height: 5.4375rem;
   }
@@ -450,11 +445,11 @@
   
   .prize-cup {
     margin-left: -2rem;
-    width: 35rem;
+    width: 32rem;
   }
   
   .awards {
-    width: 45rem;
+    width: 42rem;
   }
   
   .img2 {
@@ -480,7 +475,7 @@
     border-radius: 5px;
     border: .15rem solid var(--pink);
     margin: 5rem;
-    padding: 8rem;
+    padding: 8rem 6rem;
     flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
@@ -536,12 +531,8 @@
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: -25rem;
-    margin-right: -5rem;
+    margin-right: -4rem;
   }
-  
-  /* .policy-heading {
-    
-  } */
   
   .policy-heading .small{
     font-size: 0.875rem;
@@ -599,7 +590,63 @@
   
   .policy-img .img {
     position: absolute;
-    width: 34.9375rem;
+    width: 33.9375rem;
     margin-top: 33rem;
     margin-left: -2.5rem;
+  }
+
+  @media only screen and (max-width: 800px) {
+    .header-title {
+      font-size: 2.5rem;
+    }
+    
+    .curvey {
+      width: 13.5rem;
+    }
+    
+    .header-image {
+      margin-left: -12rem;
+      margin-top: 2rem;
+    }
+    
+    .bulb {
+      margin-top: -2.5rem;
+      margin-left: 27rem;
+      width: 2.8rem;
+    }
+    
+    .big-text {
+      font-size: 2.1rem;
+    }
+    
+    .big-text2-emoji {
+      width: 4.2rem;
+    }
+    
+    .big-text2-emoji2 {
+      width: 3rem;
+    }
+    
+    .small-text {
+      width: 65%;
+    }
+    
+    .timer-wrapper {
+      margin-top: 5rem;
+    }
+
+    /* ---------------------- FAQs -------- */
+    .cwok-casual-img {
+      width: 42rem;
+      margin-top: 1rem;
+    }
+
+    .prize-cup {
+      width: 28rem;
+    }
+    
+    .awards {
+      width: 38rem;
+      margin-top: -1rem;
+    }
   }

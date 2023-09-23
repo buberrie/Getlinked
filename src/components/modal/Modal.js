@@ -5,12 +5,11 @@ import starPink from "../../assets/star-pink.png";
 import starPurple from "../../assets/star-purple.png";
 import wink from "../../assets/wink.png";
 
-const Modal = ({toggleModal}) => {
+const Modal = ({closeModal}) => {
     
-
   return (
     <>
-      <div className="modal-wrapper" >
+       <div className="modal-wrapper" >
         <div className="modal">
           <img src={star} alt="" className="star-even star43" />
           <img src={starPurple} alt="" className="star-odd star44" />
@@ -27,7 +26,7 @@ const Modal = ({toggleModal}) => {
           </span>
           <img src={wink} alt="" className="wink" />
           <img src={starPink} alt="" className="star-even star45" />
-            <button className="button back-btn" onClick={toggleModal}>Back</button>
+            <button className="button back-btn" onClick={closeModal}>Back</button>
         </div>
       </div>
     </>

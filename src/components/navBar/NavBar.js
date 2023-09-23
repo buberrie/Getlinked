@@ -1,9 +1,22 @@
 import './nav-bar.css'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import hamburger from '../../assets/hamburger.svg'
 import close from '../../assets/close.svg'
+import { useLocation } from 'react-router-dom';
 
-const NavBar = (props) => {
+const NavBar = ({onShow, navShow}) => {
+
+      // Get the current route location
+    const location = useLocation();
+
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleNavbar = () => {
+      setIsOpen(!isOpen);
+      onShow()
+    };
+
   return (
     <>
         <div className="nav-wrapper">
@@ -14,19 +27,19 @@ const NavBar = (props) => {
             
             </Link>
             </div>
-            <img src={hamburger} alt="NavBar" className="hambuger mobile" />
-            <div className="nav-bar">
-                <div className="close-back mobile">
-                <img src={close} alt="close" className="close " />
+            <img src={hamburger} alt="NavBar" className="hamburger mobile" onClick={toggleNavbar} navShow={navShow}/>
+            <div className={`nav-bar ${navShow ? 'open' : ''} ${isOpen ? 'slide-in' : 'slide-out'}`} navShow={navShow}>
+                <div className="close-back mobile" onClick={toggleNavbar}>
+                <img src={close} alt="close" className="close mobile" />
                 </div>
                 <ul className="nav-links">
-                    <li className="nav-list"><Link to='/timeline' className='link'> Timeline </Link></li>
-                    <li className="nav-list"><Link to='/overview' className='link'> Overview </Link></li>
-                    <li className="nav-list"><Link to='/faqs' className='link'> FAQs </Link></li>
-                    <li className={`nav-list ${props.link}`}><Link to='/contactUs' className='link'> Contact </Link></li>
+                    <li className={`nav-list ${location.pathname === '/timeline' ? 'active' : ''}`}><Link to='/timeline' className='link'> Timeline </Link></li>
+                    <li className={`nav-list ${location.pathname === '/overview' ? 'active' : ''}`}><Link to='/overview' className='link'> Overview </Link></li>
+                    <li className={`nav-list ${location.pathname === '/faqs' ? 'active' : ''}`}><Link to='/faqs' className='link'> FAQs </Link></li>
+                    <li className={`nav-list ${location.pathname === '/contactUs' ? 'active' : ''}`}><Link to='/contactUs' className='link'> Contact </Link></li>
                 </ul>
-                <div className= {props.btnBorder}>
-                <Link to='/Register'><button className={`button ${props.button}`}>Register</button></Link>
+                <div className= {location.pathname === '/Register' ? 'custom-btn' : ''}>
+                <Link to='/Register'><button className={`button ${location.pathname === '/Register' ? 'custom-button' : ''}`}>Register</button></Link>
                 </div>
             </div>
         </div>
