@@ -554,24 +554,21 @@ body {
 
   .curly {
     position: relative;
-    margin-left: 34rem;
-    margin-top: -4rem;
+    margin-left: 40%;
+    margin-top: 2rem;
   }
   
   .purple-lens1 {
     width: 40rem;
     margin-left: -35rem;
     margin-top: -30rem;
-    pointer-events: none;
   }
   
   .purple-lens2 {
-    position: absolute;
-    /* border: solid 1px red; */
-    width: 55rem;
-    margin-left: -8.5rem;
-    margin-top: -10rem;
-    pointer-events: none;
+    width: 45rem;
+    margin-left: 12.5rem;
+    margin-top: -11rem;
+    transform: rotate(180deg);
   }
   
   .rules-lens1 {

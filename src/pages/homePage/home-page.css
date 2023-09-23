@@ -680,6 +680,7 @@
     .header {
       display: flex;
       flex-direction: column;
+      align-items: center;
       /* justify-content: space-between; */
     }
     
@@ -693,10 +694,9 @@
     }
     
     .header-image {
-      background-size: contain;
-      margin-left: -14rem;
+      background-size: cover;
+      margin-left: 0rem;
       margin-top: 2rem;
-      overflow: hidden;
     }
     
     .bulb {
@@ -734,18 +734,10 @@
       font-size: 4.5rem;
     }
     
-    .tinny {
-      font-family: var(--body-font);
-      font-size: 0.875rem;
-      font-weight: 400;
-      line-height: 1.16375rem;
-    }
-    
     .global {
       position: relative;
       display: block;
       margin: auto;
-      /* border: 1px solid blue; */
       width: 40rem;
       transform: rotate(0deg);
       animation: rotation 90s infinite linear;
@@ -753,29 +745,24 @@
     
     /* ------------------------THE BIG IDEA SECTION BEGINS----------------------------- */
     .big-idea {
-      position: relative;
-      display: flex;
+      flex-direction: column;
       align-items: center;
-      padding: 4rem 5rem 4rem 4rem;
-      justify-content: space-between;
-      margin-bottom: 2rem;
-      border-bottom: var(--border-line);
+      padding: 4rem 4rem 4rem 4rem;
+      justify-content: center;
+      margin-bottom: 5rem;
     }
     
     .big-idea-img {
-      /* border: 1px solid red; */
-      display: flex;
-      flex-direction: column;
-      flex: 1;
-      margin-left: -1rem;
-      padding-right: 4rem;
+      margin-left: 0rem;
+      padding-right: 0rem;
+      padding-bottom: 3rem;
     }
     
     .big-idea-text {
-      /* border: 1px solid red; */
       display: flex;
       flex-direction: column;
-      flex: 1;
+      text-align: center;
+      padding-bottom: 3rem;
     }
     
     .the-big-idea {
@@ -784,40 +771,17 @@
       align-self: center;
     }
     
-    .the-big-idea-text {
-      /* border: solid red 1px; */
-      display: flex;
-      align-self: center;
-      margin-top: 14.5rem;
-      position: absolute;
-      width: 8rem;
-      text-align: center;
-      font-weight: 700;
-      font-family: var(--body-font);
-      font-size: 1.5rem;
-    }
-    
-    .big-idea-title {
-      font-family: var(--header-font);
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
-    }
-    
-    .big-idea-colored {
-      color: var(--pink);
-    }
-    
     .big-idea-content {
-      font-family: var(--body-font);
-      font-size: 0.875rem;
-      font-weight: 400;
-      line-height: 196.429%;
+      font-size: 1.2rem;
       margin-top: 0.5rem;
-      width: 90%;
+      width: 100%;
     }
+
+    /* -------------- RULES AND GUILDELINES ------------ */
     
     .rules {
       display: flex;
+      flex-direction: column;
       align-items: center;
       padding: 0rem 5rem;
       margin-top: -4rem;
