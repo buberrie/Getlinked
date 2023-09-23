@@ -132,7 +132,6 @@ const RegisterPage = () => {
 
   return (
     <>
-      <NavBar btnBorder="custom-btn" button="custom-button" />
       {loader && <Process />}
       {modal && <Modal closeModal={closeModal} />}
       <div className="register">

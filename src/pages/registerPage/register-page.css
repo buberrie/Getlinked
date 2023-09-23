@@ -2,16 +2,22 @@
   display: flex;
   padding: 12rem 8rem 10rem 8rem;
   gap: 7%;
+  justify-content: space-between;
 }
 
 .register-img {
-  border: 1px solid red;
   width: 28%;
   padding-top: 8rem;
 }
 
+.register-img img {
+  margin-left: -8rem;
+  width: 40rem;
+}
+
 .register .form-container {
-  padding: 7rem 7rem 6rem 7rem;
+  margin-right: -3rem;
+  padding: 7rem 6rem 6rem 6rem;
   width: calc(65% - 14rem);
   border-radius: 0.75rem;
   background: rgba(255, 255, 255, 0.03);
@@ -90,7 +96,6 @@ outline: 2px solid #fff;
 
   .select-label {
     display: block;
-    /* font-weight: bold; */
     margin-bottom: 15px;
   }
 
