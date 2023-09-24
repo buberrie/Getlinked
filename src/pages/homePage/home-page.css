@@ -324,6 +324,10 @@
   }
   
   /* -------- TIMELINE BEGINS --------- */
+  .timelines.small {
+    display: none;
+  }
+  
   .timeline-heading {
     display: flex;
     flex-direction: column;
@@ -893,26 +897,27 @@
     }
     
     /* -------- TIMELINE BEGINS --------- */
-    .timeline-heading {
+    .timelines.big {
+      display: none;
+    }
+    
+    .timelines.small {
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin: 5rem 0 0 0;
+    }
+
+    .timeline {
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
     }
     
     .timeline-heading .title {
-      font-family: var(--header-font);
-      font-size: 2rem;
-      font-weight: 700;
-      margin-bottom: 1rem;
+      font-size: 2.1rem;
     }
     
     .timeline-heading .subtitle {
-      width: 30rem;
-      text-align: center;
-      font-size: 0.875rem;
-      line-height: 1.5085rem;
-    }
+      font-size: 1.075rem;
+      }
     
     .timelines {
       display: flex;
@@ -923,33 +928,24 @@
       margin-bottom: 5rem;
     }
     
-    .line {
-      width: 0.25rem;
-      height: 5.375rem;
-      background: var(--pink);
-    }
-    
-    .line1 {
-      height: 8.5625rem;
-    }
-    
     .activity {
+      /* border: 1px solid yellow; */
       display: flex;
-      justify-content: space-evenly;
-      align-items: center;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+      width: 100%;
+      margin-bottom: 2rem;
     }
     
     .acti {
+      border-left: .2rem solid var(--pink) ;
       display: flex;
       flex-direction: column;
-      align-items: flex-end;
-      text-align: right;
-      flex: 1;
-    }
-    
-    .acti-even {
       align-items: flex-start;
-      text-align: left;
+      width: 100%;
+      padding: 1.2rem 1rem 0.5rem 1rem;
+      margin: 0rem 0rem .8rem 1.2rem;
     }
     
     .number {
@@ -957,45 +953,39 @@
       justify-content: center;
       align-items: center;
       border-radius: 50%;
-      width: 3.3125rem;
-      height: 3.3125rem;
+      width: 3.0125rem;
+      height: 3.0125rem;
       background: linear-gradient(270deg, #903aff 0%, #d434fe 100%);
-      font-size: 1.5rem;
+      font-size: 1.1rem;
       font-weight: 700;
-      margin: 0rem 5rem;
+      margin: 0 0;
+    }
+
+    .date-area {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      width: 100%;
     }
     
     .acti-date {
-      font-size: 1.5rem;
+      font-size: 1.15rem;
       font-weight: 700;
-      display: flex;
-      flex: 1;
       color: var(--pink);
-    }
-    
-    .acti-date-even {
-      justify-content: flex-end;
+      margin-left: .6rem;
     }
     
     .acti-title {
       position: relative;
       color: var(--pink);
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       bottom: 1rem;
     }
     
     .acti-info {
-      font-size: 1rem;
+      font-size: 1.05rem;
       line-height: 1.709rem;
-    }
-    
-    .acti-info.odd {
-      text-align: right;
-    }
-    
-    .acti-date {
-      display: flex;
-      flex: 1;
     }
     
     /* -------- PRIZE AND AWARD SECTION --------- */

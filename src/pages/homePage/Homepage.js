@@ -311,7 +311,7 @@ const Homepage = () => {
             upcoming event.
           </p>
         </div>
-        <div className="timelines">
+        <div className="timelines big">
           <div className="line line1"></div>
           <div className=" activity activity1">
             <div className="acti">
@@ -390,6 +390,92 @@ const Homepage = () => {
         </div>
       </div>
 
+      {/* MOBILE VIEW LAYOUT */}
+      <div className="timelines small">
+        <div className=" activity activity1">
+          <div className="acti acti-even">
+            <h3 className="acti-title">Hackathon Announcement</h3>
+            <p className="acti-info">
+            The getlinked tech hackathon 1.0 is formally announced to the
+              general public and teams begin to get ready to register
+            </p>
+          </div>
+          <div className="date-area">
+            <div className="number">1</div>
+            <div className="acti-date">November 18, 2023</div>
+          </div>
+        </div>
+        <div className=" activity activity1">
+          <div className="acti acti-even">
+            <h3 className="acti-title">Teams Registration begins</h3>
+            <p className="acti-info">
+              Interested teams can now show their interest in the getlinked tech
+              hackathon 1.0 2023 by proceeding to register
+            </p>
+          </div>
+          <div className="date-area">
+            <div className="number">2</div>
+            <div className="acti-date">November 18, 2023</div>
+          </div>
+        </div>
+        <div className=" activity activity1">
+          <div className="acti">
+            <h3 className="acti-title">Teams Registration ends</h3>
+            <p className="acti-info odd">
+              Interested Participants are no longer Allowed to register
+            </p>
+          </div>
+          <div className="date-area">
+            <div className="number">3</div>
+            <div className="acti-date">November 18, 2023</div>
+          </div>
+        
+        </div>
+        <div className=" activity activity1">
+          <div className="acti acti-even">
+            <h3 className="acti-title">
+              Announcement of the accepted teams and ideas
+            </h3>
+            <p className="acti-info">
+              All teams whom idea has been accepted into getlinked tech
+              hackathon 1.0 2023 are formally announced
+            </p>
+          </div>
+          <div className="date-area">
+            <div className="number">4</div>
+            <div className="acti-date">November 18, 2023</div>
+          </div>
+        </div>
+        <div className=" activity activity1">
+          <div className="acti">
+            <h3 className="acti-title">
+              Getlinked Hackathon 1.0 Offically Begins
+            </h3>
+            <p className="acti-info odd">
+              Accepted teams can now proceed to build their ground breaking
+              skill driven solutions
+            </p>
+          </div>
+          <div className="date-area">
+            <div className="number">5</div>
+            <div className="acti-date">November 18, 2023</div>
+          </div>
+        </div>
+        <div className=" activity activity1">
+          <div className="acti acti-even">
+            <h3 className="acti-title">Demo Day</h3>
+            <p className="acti-info">
+              Teams get the opportunity to pitch their projects to judges. The
+              winner of the hackathon will also be announced on this day
+            </p>
+          </div>
+          <div className="date-area">
+            <div className="number">6</div>
+            <div className="acti-date">November 18, 2023</div>
+          </div>
+        </div>
+      </div>
+
       {/* prizes to be won */}
 
       <div className="prize-area">
@@ -401,7 +487,7 @@ const Homepage = () => {
         <img src={starWhite} alt="" className="star-even star24" />
         <div className="prize">
           <div className="img1">
-          <div className="prize-text mobile">
+            <div className="prize-text mobile">
               <h2 className="big-idea-title">Prizes and</h2>
               <h2 className="big-idea-title big-idea-colored">Rewards</h2>
               <p className="big-idea-content">
