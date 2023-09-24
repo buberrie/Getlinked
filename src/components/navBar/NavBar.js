@@ -28,7 +28,7 @@ const NavBar = ({onShow, navShow}, props) => {
             </Link>
             </div>
             <img src={hamburger} alt="NavBar" className="hamburger mobile" onClick={toggleNavbar} navShow={navShow}/>
-            <div className={`nav-bar ${navShow ? 'open' : ''} ${isOpen ? 'slide-in' : 'slide-out'}`} navShow={navShow}  >
+            <div className={`nav-bar ${navShow ? 'open' : ''} ${isOpen ? 'slide-in' : 'slide-out'}`} navShow={navShow} onClick={toggleNavbar} >
                 <div className="close-back mobile" onClick={toggleNavbar}>
                 <img src={close} alt="close" className="close mobile" />
                 </div>
