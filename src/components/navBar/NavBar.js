@@ -5,7 +5,7 @@ import hamburger from '../../assets/hamburger.svg'
 import close from '../../assets/close.svg'
 import { useLocation } from 'react-router-dom';
 
-const NavBar = ({onShow, navShow}, props) => {
+const NavBar = ({onShow, navShow}) => {
 
       // Get the current route location
     const location = useLocation();

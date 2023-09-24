@@ -99,7 +99,7 @@ const RegisterPage = () => {
       setLoader(false);
       openModal();
     } catch (error) {
-      alert("Oops, Project entry already exists");
+      alert("Oops, Somthing went wrong, Cross check your inputs and try again");
       setError(error);
       setLoader(false);
       console.error("Error registering:", error);

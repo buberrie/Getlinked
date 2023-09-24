@@ -202,7 +202,7 @@ form .btn .button {
   .register {
     display: flex;
     flex-direction: column;
-    padding: 6rem 5rem 6rem 5rem;
+    padding: 5rem 4rem 5rem 4rem;
     gap: 7%;
     justify-content: space-between;
   }
@@ -220,9 +220,10 @@ form .btn .button {
   }
   
   .register .form-container {
+    border: 1px solid red;
     margin-right: 0rem;
-    padding: 7rem 1rem 6rem 1rem;
-    width: calc(100% - 2rem);
+    padding: 7rem 0rem 6rem 0rem;
+    width: 100% ;
     border-radius: 0.75rem;
     background: transparent;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -247,12 +248,12 @@ form .btn .button {
   }
 
   .input-container.select1 {
-    width: 57.5%;
+    width: 62.5%;
     margin: 1rem 0;
   }
 
   .input-container.select2 {
-    width: 36.5%;
+    width: 30.5%;
     margin: 1rem 0;
   }
   
@@ -260,8 +261,8 @@ form .btn .button {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    border: 1px solid red;
   }
-
   
   .form-container form label {
     font-size: 0.975rem;
