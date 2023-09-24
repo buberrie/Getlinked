@@ -577,24 +577,24 @@ body {
   }
   
   .purple-lens2 {
-    width: 45rem;
-    margin-left: 12.5rem;
-    margin-top: -11rem;
+    width: 35rem;
+    margin-left: 8.5rem;
+    margin-top: -9rem;
     transform: rotate(180deg);
   }
   
   .rules-lens1 {
     position: absolute;
     margin-left: -8rem;
-    margin-top: -75rem;
-    width: 50rem;
+    margin-top: -70rem;
+    width: 45rem;
   }
   
   .rules-lens2 {
     position: absolute;
-    margin-left: 8rem;
+    margin-left: 6rem;
     margin-top: 38rem;
-    width: 42rem;
+    width: 40rem;
   }
   
   .criteria-lens1 {
@@ -759,7 +759,7 @@ body {
   .star17 {
     width: 2.5rem;
     height: 2.5rem;
-    margin-left: 68rem;
+    margin-left: 40rem;
     margin-top: 40rem;
   }
   .star18 {
@@ -777,7 +777,7 @@ body {
   .star20 {
     width: 1.5rem;
     height: 1.5rem;
-    margin-left: 45rem;
+    margin-left: 38rem;
     margin-top: 15.5rem;
   }
   .star21 {
@@ -789,13 +789,13 @@ body {
   .star22 {
     width: 2.5rem;
     height: 2.5rem;
-    margin-left: 45rem;
+    margin-left: 38rem;
     margin-top: 85rem;
   }
   .star23 {
     width: 2rem;
     height: 2rem;
-    margin-left: 42rem;
+    margin-left: 35rem;
     margin-top: 48.5rem;
   }
   .star24 {
