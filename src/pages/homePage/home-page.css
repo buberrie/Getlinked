@@ -1085,9 +1085,8 @@
     
     /* ------- PRIVACY POLICY BEGINS -------*/
     .policy {
-      display: flex;
       flex-direction: column;
-      padding: 10rem 8rem;
+      padding: 10rem 6rem;
     }
     
     .policy-text {
@@ -1097,44 +1096,38 @@
     }
     
     .policy-img {
-      flex: 1;
       background: url(../../assets/locked.svg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
-      margin-top: 5rem;
-      margin-right: -4rem;
+      margin-top: 0rem;
+      margin-right: 0rem;
     }
-    
-    .policy-heading .small{
-      font-size: 0.875rem;
-      line-height: 2.71875rem;
-    }
+
+    .policy-img .img {
+      position: relative;
+      width: 30.9375rem;
+      margin-top: 20rem;
+      margin-left: 2rem;
+    } 
     
     .privacy-policy {
-      border: .15rem solid var(--pink);
-      border-radius: 5px;
       padding: 4rem;
       margin-top: 3rem;
     }
     
     .intro {
-      font-size: 0.875rem;
+      font-size: 1.05rem;
     line-height: 1.8935rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     }
     
     .licensing {
-      color: var(--pink);
-      font-size: 1rem;
-    line-height: 2.164rem;
+      font-size: 1.1rem;
     }
     
     .subintro {
-      font-size: 0.875rem;
-      font-weight: 700;
-      line-height: 1.8935rem;
-      margin-bottom: .8rem;
+      font-size: 0.975rem;
     }
     
     .info {
@@ -1143,15 +1136,11 @@
       margin-bottom: 1rem;
     }
     
-    .info .img {
-      width: 1rem;
-      height: 1rem;
-    }
-    
     .info .detail {
-      font-size: 0.875rem;
-    line-height: 1.8935rem;
-    margin-left: .8rem;
+      font-size: 0.975rem;
+      text-align: start;
+      margin-top: 1rem;
+      margin-left: 1.1rem;
     }
     
     .privacy-policy .btn {
@@ -1159,11 +1148,5 @@
       display: flex;
       justify-content: center;
     }
-    
-    .policy-img .img {
-      position: relative;
-      width: 33.9375rem;
-      margin-top: 0rem;
-      margin-left: -2.5rem;
-    }  
+     
   }

@@ -3,6 +3,7 @@
   padding: 12rem 8rem 10rem 8rem;
   gap: 7%;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .register-img {

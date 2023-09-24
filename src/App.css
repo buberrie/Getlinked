@@ -629,26 +629,26 @@ body {
   .policy-lens {
     position: absolute;
     margin-left: -20rem;
-    margin-top: -25rem;
-    width: 50rem;
+    margin-top: -18rem;
+    width: 40rem;
     pointer-events: none;
   }
   
   .contact-lens {
     left: 10rem;
-    top: 25rem;
-    width: 40rem;
+    top: 30rem;
+    width: 35rem;
   }
   
   .contact-lens2 {
-    right: 1rem;
-    top: 35rem;
-    width: 40rem;
+    right: 2rem;
+    top: 30rem;
+    width: 35rem;
   }
   
   .register-lens2 {
-    right: 1rem;
-    bottom: -85rem;
+    right: 2rem;
+    bottom: -75rem;
     width: 35rem;
   }
   
@@ -823,46 +823,46 @@ body {
     margin-top: 45rem;
   }
   .star28 {
-    width: 2rem;
-    height: 2rem;
-    margin-left: 21rem;
-    margin-top: -1rem;
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-left: -3rem;
+    margin-top: -6rem;
   }
   .star29 {
     width: 1rem;
     height: 1rem;
-    margin-left: 69rem;
-    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-top: 33rem;
   }
   .star30 {
     width: 1.5rem;
     height: 1.5rem;
-    margin-left: 35rem;
-    margin-top: 7rem;
+    margin-left: 30rem;
+    margin-top: 0rem;
   }
   .star31 {
     width: 1rem;
     height: 1rem;
-    margin-left: 50rem;
-    margin-top: 33rem;
+    margin-left: 30rem;
+    margin-top: 78rem;
   }
   .star32 {
     width: 2rem;
     height: 2rem;
     margin-left: -4rem;
-    margin-top: 45rem;
+    margin-top: 65rem;
   }
   .star33 {
     width: 1.2rem;
     height: 1.2rem;
-    margin-left: 45rem;
-    margin-top: 40rem;
+    margin-left: 30rem;
+    margin-top: 110rem;
   }
   .star34 {
     width: 2rem;
     height: 2rem;
-    margin-left: 74rem;
-    margin-top: 45rem;
+    margin-left: 4rem;
+    margin-top: 95rem;
   }
   .star35 {
     width: 1.2rem;
@@ -885,7 +885,7 @@ body {
   .star38 {
     width: 1.2rem;
     height: 1.2rem;
-    left: 18rem;
+    left: 12rem;
     margin-top: 0rem;
   }
   .star39 {
@@ -897,8 +897,8 @@ body {
   .star40 {
     width: 2.2rem;
     height: 2.2rem;
-    left: -22rem;
-    top: 50rem;
+    left: -30rem;
+    top: 40rem;
   }
   .star41 {
     width: 2.5rem;
@@ -909,7 +909,7 @@ body {
   .star42 {
     width: 2.5rem;
     height: 2.5rem;
-    left: -30rem;
+    left: -35rem;
     top: 90rem;
   }
   .star43 {
@@ -929,23 +929,5 @@ body {
     height: 2rem;
     margin-left: 8rem;
     margin-top: 8rem;
-  }
-  .star38 {
-    width: 1.2rem;
-    height: 1.2rem;
-    margin-left: 30rem;
-    margin-top: 12rem;
-  }
-  .star38 {
-    width: 1.2rem;
-    height: 1.2rem;
-    margin-left: 30rem;
-    margin-top: 12rem;
-  }
-  .star38 {
-    width: 1.2rem;
-    height: 1.2rem;
-    margin-left: 30rem;
-    margin-top: 12rem;
   }
 }
