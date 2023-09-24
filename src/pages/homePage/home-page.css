@@ -510,7 +510,7 @@
     width: 0.25rem;
     height: 7.02975rem;
     background: var(--pink);
-    margin-right: .5rem;
+    margin: 0 .5rem;
   }
   
   /* ------- PRIVACY POLICY BEGINS -------*/
@@ -1158,7 +1158,7 @@
      width: 0.18rem;
      height: 8.52975rem;
      background: var(--pink);
-     margin-right: .3rem;
+     margin: 0 .3rem;
    }
  }
 
@@ -1181,15 +1181,13 @@
     .vertical {
       width: 14.08113rem;
       height: 0.18rem;
-      background: var(--pink);
       margin: 0 .95rem;
     }
     
     .horizontal {
       width: 0.18rem;
       height: 6.52975rem;
-      background: var(--pink);
-      margin-right: .3rem;
+      margin: 0 .3rem;
     }
   }
 
@@ -1220,11 +1218,11 @@
     .horizontal {
       width: 0.15rem;
       height: 7.02975rem;
-      margin-right: .2rem;
+      margin: 0 .2rem;
     }
   }
 
-  @media only screen and (min-width: 465px) and (max-width: 540px) {
+  @media only screen and (min-width: 460px) and (max-width: 540px) {
      /* -------PARTNERS AND SPONSORS------- */
      .partner-logo {
       margin: 5rem 3rem;
@@ -1255,18 +1253,23 @@
     }
   }
 
-
-  @media only screen and (min-width: 465px) and (max-width: 465px) {
+  @media only screen and (min-width: 430px) and (max-width: 475px) {
      /* -------PARTNERS AND SPONSORS------- */
      .partner-logo {
-      margin: 5rem 3rem;
+      margin: 5rem 2rem;
       padding: 4rem 1rem;
       gap: .2rem;
+    }
+
+    .sta {
+      width: 11.58113rem;
+      height: 6.02975rem;
+      /* border: 1px solid red; */
     }
     
     .sta-img {
       /* border: 1px solid red; */
-      width: 5.5rem;
+      width: 5rem;
     }
     
     .sta-img2 {
@@ -1277,12 +1280,50 @@
     .vertical {
       width: 11.58113rem;
       height: 0.15rem;
-      margin: 1.3rem;
+      margin: 1rem;
     }
     
     .horizontal {
       width: 0.15rem;
       height: 6.52975rem;
       margin-right: 0rem;
+      margin: 0 1rem;
+      
+    }
+  }
+
+  @media only screen and  (max-width: 430px) {
+     /* -------PARTNERS AND SPONSORS------- */
+     .partner-logo {
+      margin: 5rem 2rem;
+      padding: 4rem 1rem;
+      gap: .2rem;
+    }
+
+    .sta {
+      width: 9.58113rem;
+      height: 6.02975rem;
+    }
+    
+    .sta-img {
+      width: 5rem;
+    }
+    
+    .sta-img2 {
+      width: 9.5rem;
+    }
+    
+    .vertical {
+      width: 9.58113rem;
+      height: 0.15rem;
+      margin: 1rem;
+    }
+    
+    .horizontal {
+      width: 0.15rem;
+      height: 6.52975rem;
+      margin-right: 0rem;
+      margin: 0 1rem;
+      
     }
   }
