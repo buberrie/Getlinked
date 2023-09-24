@@ -1,5 +1,7 @@
 import Footer from "../../components/footer/Footer";
 import "./home-page.css";
+import { Link } from 'react-router-dom'
+import { useLocation } from 'react-router-dom';
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import fireIcon from "../../assets/fireIcon.png";
@@ -83,6 +85,9 @@ const Homepage = () => {
     }
   }, [sectionId]);
 
+    // Get the current route location
+    const location = useLocation();
+
   return (
     <>
       <div className="header-wrapper" id="homepage">
@@ -109,7 +114,7 @@ const Homepage = () => {
               Participate in getlinked tech Hackathon 2023 stand a chance to win
               a Big prize
             </p>
-            <button className="button">Register</button>
+            <Link to='/Register'><button className={`button ${location.pathname === '/Register' ? 'custom-button' : ''}`}>Register</button></Link>
             <img src={star} alt="" className="star-even star2" />
             <div className="timer-wrapper">
               <span className="timer">

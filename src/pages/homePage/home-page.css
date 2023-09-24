@@ -865,7 +865,7 @@
     }
     
     .cwok-casual-img {
-      width: 47rem;
+      width: 45rem;
       margin-left: 0rem;
       margin-right: 0rem;
       margin-top: 10rem;
@@ -893,6 +893,10 @@
       margin-top: 8rem;
       width: 7.125rem;
       height: 4.4375rem;
+    }
+
+    .criteria-content {
+      text-align: start;
     }
     
     /* -------- TIMELINE BEGINS --------- */
@@ -1030,6 +1034,7 @@
     .policy {
       flex-direction: column;
       padding: 10rem 6rem;
+      overflow: hidden;
     }
     
     .policy-text {
@@ -1051,7 +1056,7 @@
       position: relative;
       width: 30.9375rem;
       margin-top: 20rem;
-      margin-left: 2rem;
+      margin-left: 1rem;
     } 
     
     .privacy-policy {

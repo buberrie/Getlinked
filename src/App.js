@@ -19,16 +19,8 @@ function App() {
     }
   }
 
-  const hideNav = () => {
-    if (navShow === true) {
-      setTimeout(() => {
-        setnavShow(false)
-      }, 300)
-    }
-  }  //hide navbar when anywhere on the screen is clicked
-
   return (
-    <div onClick={hideNav}>
+    <div>
       <Router>
         <NavBar onShow={onShow} navShow={navShow} />
         <Routes>
