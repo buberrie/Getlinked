@@ -1035,33 +1035,7 @@
     }
     
     /* -------PARTNERS AND SPONSORS------- */
-    /* .partner-logo {
-      margin: 5rem;
-      padding: 4rem 2rem;
-      gap: 0rem;
-    }
-    
-    .sta-img {
-      border: 1px solid red;
-      width: 5.5rem;
-    }
-    
-    .sta-img2 {
-      border: 1px solid red;
-      width: 11rem;
-    }
-    
-    .vertical {
-      width: 10.08113rem;
-      height: 0.10rem;
-      margin: 1.8rem;
-    }
-    
-    .horizontal {
-      width: 0.10rem;
-      height: 7.02975rem;
-      margin-right: .6rem;
-    } */
+  
     
     /* ------- PRIVACY POLICY BEGINS -------*/
     .policy {
@@ -1191,7 +1165,7 @@
     }
   }
 
-  @media only screen and (min-width: 540px) and (max-width: 630px) {
+  @media only screen and (min-width: 545px) and (max-width: 640px) {
      /* -------PARTNERS AND SPONSORS------- */
      .partner-logo {
       margin: 5rem 6rem;
@@ -1222,7 +1196,7 @@
     }
   }
 
-  @media only screen and (min-width: 460px) and (max-width: 540px) {
+  @media only screen and (min-width: 460px) and (max-width: 545px) {
      /* -------PARTNERS AND SPONSORS------- */
      .partner-logo {
       margin: 5rem 3rem;
@@ -1292,7 +1266,7 @@
     }
   }
 
-  @media only screen and  (max-width: 430px) {
+  @media only screen and  (max-width: 435px) {
      /* -------PARTNERS AND SPONSORS------- */
      .partner-logo {
       margin: 5rem 2rem;

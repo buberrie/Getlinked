@@ -613,16 +613,16 @@ body {
   .sponsor-lens {
     position: absolute;
     margin-left: -12rem;
-    margin-top: -8rem;
-    width: 50rem;
+    margin-top: 0rem;
+    width: 40rem;
     pointer-events: none;
   }
   
   .sponsor-lens2 {
     position: absolute;
-    margin-left: 43rem;
-    margin-top: -35rem;
-    width: 60rem;
+    margin-left: 13rem;
+    margin-top: -10rem;
+    width: 35rem;
     pointer-events: none;
   }
   
@@ -771,38 +771,38 @@ body {
   .star19 {
     width: 2rem;
     height: 2rem;
-    margin-left: 15rem;
+    margin-left: 5rem;
     margin-top: 6rem;
   }
   .star20 {
     width: 1.5rem;
     height: 1.5rem;
-    margin-left: 65rem;
-    margin-top: 11.5rem;
+    margin-left: 45rem;
+    margin-top: 15.5rem;
   }
   .star21 {
     width: 2.5rem;
     height: 2.5rem;
-    margin-left: 40rem;
-    margin-top: 20rem;
+    margin-left: 20rem;
+    margin-top: 30rem;
   }
   .star22 {
     width: 2.5rem;
     height: 2.5rem;
-    margin-left: 75rem;
-    margin-top: 25rem;
+    margin-left: 45rem;
+    margin-top: 85rem;
   }
   .star23 {
     width: 2rem;
     height: 2rem;
-    margin-left: 32rem;
-    margin-top: 38.5rem;
+    margin-left: 42rem;
+    margin-top: 48.5rem;
   }
   .star24 {
     width: 1.5rem;
     height: 1.5rem;
-    margin-left: 15rem;
-    margin-top: 48rem;
+    margin-left: 5rem;
+    margin-top: 58rem;
   }
   .star25 {
     width: 2.5rem;
@@ -813,14 +813,14 @@ body {
   .star26 {
     width: 1.5rem;
     height: 1.5rem;
-    margin-left: 48rem;
+    margin-left: 28rem;
     margin-top: 20rem;
   }
   .star27 {
     width: 2rem;
     height: 2rem;
-    margin-left: 48rem;
-    margin-top: 45rem;
+    margin-left: 28rem;
+    margin-top: 35rem;
   }
   .star28 {
     width: 1.8rem;
