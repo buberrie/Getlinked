@@ -1,7 +1,7 @@
 import Footer from "../../components/footer/Footer";
 import "./home-page.css";
 import { useState, useEffect } from "react";
-import { useParams } from 'react-router-dom';
+import { useParams } from "react-router-dom";
 import fireIcon from "../../assets/fireIcon.png";
 import global from "../../assets/globel.png";
 import chainLink from "../../assets/chainlink.png";
@@ -33,7 +33,6 @@ import question1 from "../../assets/question1.svg";
 import question2 from "../../assets/question2.svg";
 
 const Homepage = () => {
-
   // Initialize state variables
   const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining());
 
@@ -41,18 +40,25 @@ const Homepage = () => {
   function calculateTimeRemaining() {
     // Set the date we're counting down to
     const countDownDate = new Date("September 27, 2023 00:00:00").getTime();
-   // Set the date we're counting down from
+    // Set the date we're counting down from
     const now = new Date().getTime();
     // remaining time
     const distance = countDownDate - now;
 
     if (distance < 0) {
-      return { hours: '00', minutes: '00', seconds: '00' };
+      return { hours: "00", minutes: "00", seconds: "00" };
     }
 
-    const hours = String(Math.floor(distance / (1000 * 60 * 60 ))).padStart(2, '0');
-    const minutes = String(Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))).padStart(2, '0');
-    const seconds = String(Math.floor((distance % (1000 * 60)) / 1000)).padStart(2, '0');
+    const hours = String(Math.floor(distance / (1000 * 60 * 60))).padStart(
+      2,
+      "0"
+    );
+    const minutes = String(
+      Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))
+    ).padStart(2, "0");
+    const seconds = String(
+      Math.floor((distance % (1000 * 60)) / 1000)
+    ).padStart(2, "0");
 
     return { hours, minutes, seconds };
   }
@@ -73,7 +79,7 @@ const Homepage = () => {
     // Scroll to the appropriate section when the component mounts
     const sectionElement = document.getElementById(sectionId);
     if (sectionElement) {
-      sectionElement.scrollIntoView({ behavior: 'smooth' });
+      sectionElement.scrollIntoView({ behavior: "smooth" });
     }
   }, [sectionId]);
 
@@ -106,14 +112,17 @@ const Homepage = () => {
             <button className="button">Register</button>
             <img src={star} alt="" className="star-even star2" />
             <div className="timer-wrapper">
-              <span className="timer" >
-              {timeRemaining.hours}<span className="tinny">H</span>
+              <span className="timer">
+                {timeRemaining.hours}
+                <span className="tinny">H</span>
               </span>
-              <span className="timer" >
-              {timeRemaining.minutes}<span className="tinny">M</span>
+              <span className="timer">
+                {timeRemaining.minutes}
+                <span className="tinny">M</span>
               </span>
-              <span className="timer" >
-              {timeRemaining.seconds}<span className="tinny">S</span>
+              <span className="timer">
+                {timeRemaining.seconds}
+                <span className="tinny">S</span>
               </span>
             </div>
           </div>
@@ -154,6 +163,9 @@ const Homepage = () => {
       {/* Rules and regulations begins */}
 
       <div className="rules">
+        <div className="big-idea-img mobile">
+          <img src={rules} alt="" className="rules-img" />
+        </div>
         <div className="rules-text">
           <img src={star} alt="" className="star-even star6" />
           <img src={purplelens3} alt="" className="rules-lens1" />
@@ -169,11 +181,10 @@ const Homepage = () => {
             solutions that can change the world, that's what we're all about!
           </p>
         </div>
-        <div className="big-idea-img">
-          {/* <div className="ellipse ellipse1"></div> */}
+        <div className="big-idea-img desktop">
           <img src={rules} alt="" className="rules-img" />
-          <img src={purplelens2} alt="" className="rules-lens2" />
         </div>
+        <img src={purplelens2} alt="" className="rules-lens2" />
       </div>
 
       {/* Judging criterias begins */}
@@ -187,38 +198,39 @@ const Homepage = () => {
         </div>
         <div className="big-idea-text">
           <h2 className="big-idea-title">Judging Criteria</h2>
-          <h2 className="big-idea-title big-idea-colored">
-          Key attributes
-          </h2>
+          <h2 className="big-idea-title big-idea-colored">Key attributes</h2>
           <p className="criteria-content">
-            <span className="criteria-colored">
-            Innovation and Creativity: 
-            </span>
-            Evaluate the uniqueness and creativity of the solution. Consider whether it addresses a real-world problem in a novel way or introduces innovative features.
+            <span className="criteria-colored">Innovation and Creativity:</span>
+            Evaluate the uniqueness and creativity of the solution. Consider
+            whether it addresses a real-world problem in a novel way or
+            introduces innovative features.
+          </p>
+          <p className="criteria-content">
+            <span className="criteria-colored">Functionality:</span>
+            Assess how well the solution works. Does it perform its intended
+            functions effectively and without major issues? Judges would
+            consider the completeness and robustness of the solution.
+          </p>
+          <p className="criteria-content">
+            <span className="criteria-colored">Impact and Relevance:</span>
+            Determine the potential impact of the solution in the real world.
+            Does it address a significant problem, and is it relevant to the
+            target audience? Judges would assess the potential social, economic,
+            or environmental benefits.
+          </p>
+          <p className="criteria-content">
+            <span className="criteria-colored">Technical Complexity:</span>
+            Evaluate the technical sophistication of the solution. Judges would
+            consider the complexity of the code, the use of advanced
+            technologies or algorithms, and the scalability of the solution.
           </p>
           <p className="criteria-content">
             <span className="criteria-colored">
-            Functionality: 
+              Adherence to Hackathon Rules:
             </span>
-            Assess how well the solution works. Does it perform its intended functions effectively and without major issues? Judges would consider the completeness and robustness of the solution.
-          </p>
-          <p className="criteria-content">
-            <span className="criteria-colored">
-            Impact and Relevance: 
-            </span>
-            Determine the potential impact of the solution in the real world. Does it address a significant problem, and is it relevant to the target audience? Judges would assess the potential social, economic, or environmental benefits.
-          </p>
-          <p className="criteria-content">
-            <span className="criteria-colored">
-            Technical Complexity: 
-            </span>
-            Evaluate the technical sophistication of the solution. Judges would consider the complexity of the code, the use of advanced technologies or algorithms, and the scalability of the solution.
-          </p>
-          <p className="criteria-content">
-            <span className="criteria-colored">
-            Adherence to Hackathon Rules: 
-            </span>
-            Judges will Ensure that the team adhered to the rules and guidelines of the hackathon, including deadlines, use of specific technologies or APIs, and any other competition-specific requirements.
+            Judges will Ensure that the team adhered to the rules and guidelines
+            of the hackathon, including deadlines, use of specific technologies
+            or APIs, and any other competition-specific requirements.
           </p>
           <button className="button read-more">Read More</button>
           <img src={purplelens2} alt="" className="criteria-lens2" />
@@ -389,10 +401,18 @@ const Homepage = () => {
         <img src={starWhite} alt="" className="star-even star24" />
         <div className="prize">
           <div className="img1">
+          <div className="prize-text mobile">
+              <h2 className="big-idea-title">Prizes and</h2>
+              <h2 className="big-idea-title big-idea-colored">Rewards</h2>
+              <p className="big-idea-content">
+                Highlight of the prizes or rewards for winners and for
+                participants.
+              </p>
+            </div>
             <img src={prizeCup} alt="" className="prize-cup" />
           </div>
           <div className="img2">
-            <div className="prize-text">
+            <div className="prize-text desktop">
               <h2 className="big-idea-title">Prizes and</h2>
               <h2 className="big-idea-title big-idea-colored">Rewards</h2>
               <p className="big-idea-content">
@@ -498,12 +518,12 @@ const Homepage = () => {
           <img src={padlock} alt="" className="img" />
         </div>
         <img src={star} alt="" className="star-even star28" />
-          <img src={starWhite} alt="" className="star-even star29" />
-          <img src={starPurple} alt="" className="star-odd star30" />
-          <img src={starPink} alt="" className="star-even star31" />
-          <img src={starPurple} alt="" className="star-even star32" />
-          <img src={starWhite} alt="" className="star-odd star33" />
-          <img src={star} alt="" className="star-odd star34" />
+        <img src={starWhite} alt="" className="star-even star29" />
+        <img src={starPurple} alt="" className="star-odd star30" />
+        <img src={starPink} alt="" className="star-even star31" />
+        <img src={starPurple} alt="" className="star-even star32" />
+        <img src={starWhite} alt="" className="star-odd star33" />
+        <img src={star} alt="" className="star-odd star34" />
       </div>
       <Footer />
     </>

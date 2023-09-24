@@ -652,6 +652,14 @@
   }
 
   @media only screen and (max-width: 640px) {
+    .desktop {
+      display: none;
+    }
+    
+    .mobile {
+      display: block;
+    }
+    
     .top-title {
       overflow: hidden;
       display: flex;
@@ -782,64 +790,60 @@
     .rules {
       display: flex;
       flex-direction: column;
-      align-items: center;
-      padding: 0rem 5rem;
-      margin-top: -4rem;
-      border-bottom: var(--border-line);
+      padding: 0rem 4rem;
+      margin-top: 0rem;
+      overflow: hidden;
     }
     
     .rules-text {
-      /* border: 1px solid red; */
-      display: flex;
-      flex-direction: column;
-      flex: 1;
-      margin-left: 3rem;
+      width: 100%;
+      text-align: center;
+      margin-left: 0rem;
+      padding-bottom: 6rem;
     }
     
     .rules-img {
-      /* border: 1px solid red; */
       width: 45rem;
       display: flex;
       align-self: center;
-      margin-left: -2rem;
-      margin-right: -10rem;
+      margin-left: 0rem;
+      margin-right: 0rem;
       z-index: 1;
+    }
+
+    .big-idea-img.desktop {
+      display: none;
     }
     
     /* ---------CRITERIA BEGINS---------------------------- */
     .criteria-img {
-      /* border: 1px solid red; */
       width: 42rem;
-      margin-right: -3rem;
+      margin-right: 0rem;
     }
     
     .criteria-content {
-      font-family: var(--body-font);
-      font-size: 0.875rem;
-      font-weight: 400;
-      line-height: 156.429%;
-      margin-top: 1rem;
-      margin-bottom: 0.5rem;
-      width: 90%;
-    }
-    
-    .criteria-colored {
-      color: #fe34b9;
-      font-weight: 700;
+      font-size: 1.1rem;
+      margin-top: 1.5rem;
+      width: 100%;
     }
     
     .read-more {
-      margin: 4rem 0;
+      margin: 6rem 0;
+      margin-bottom: 1rem;
+    }
+
+    #overview .big-idea-text  {
+      align-items: center;
     }
     
     /* ----------FAQs BEGINS ------------ */
     .faqs {
       position: relative;
       display: flex;
+      flex-direction: column;
       align-items: center;
-      padding: 6rem;
+      padding: 4rem 5rem;
       margin-bottom: 2rem;
-      border-bottom: var(--border-line);
     }
     
     .faqs-container {
@@ -847,7 +851,6 @@
       align-items: center;
       justify-content: space-between;
       padding: 1rem 0 0.5rem 0;
-      border-bottom: 0.05rem solid var(--pink);
     }
     
     .faqs-subtitle {
@@ -859,34 +862,34 @@
     }
     
     .cwok-casual-img {
-      /* border: 1px solid red; */
       width: 47rem;
-      margin-left: 3rem;
-      margin-right: -8rem;
+      margin-left: 0rem;
+      margin-right: 0rem;
+      margin-top: 10rem;
     }
     
     .q-mark-big {
       position: absolute;
-      margin-left: 15.5rem;
-      margin-top: -6rem;
-      width: 9.125rem;
-      height: 6.4375rem;
+      margin-left: 12rem;
+      margin-top: 4rem;
+      width: 8.125rem;
+      height: 5.4375rem;
     }
     
     .q-mark-small {
       position: absolute;
-      margin-left: 5.5rem;
-      margin-top: -1.5rem;
-      width: 8.125rem;
-      height: 5.4375rem;
+      margin-left: 3.5rem;
+      margin-top: 8rem;
+      width: 7.125rem;
+      height: 4.4375rem;
     }
     
     .q-mark-small2 {
       position: absolute;
-      margin-left: 28rem;
-      margin-top: -1.8rem;
-      width: 8.125rem;
-      height: 5.4375rem;
+      margin-left: 21rem;
+      margin-top: 8rem;
+      width: 7.125rem;
+      height: 4.4375rem;
     }
     
     /* -------- TIMELINE BEGINS --------- */
@@ -996,38 +999,39 @@
     }
     
     /* -------- PRIZE AND AWARD SECTION --------- */
-    .prize-area {
-      background: url(../../assets/prize-background.png), #050110 0px -0.093px / 100% 109.967%;
-      background-repeat: no-repeat;
-      background-size: cover;
-  }
-    
     .prize {
       display: flex;
       padding: 6rem 4rem;
       align-items: center;
       justify-content: space-evenly;
+      flex-direction: column;
     }
     
     .prize-cup {
       margin-left: -2rem;
       width: 32rem;
+      margin-bottom: 7rem;
     }
     
     .awards {
-      width: 42rem;
+      width: 35rem;
     }
     
-    .img2 {
+    .img2, .img1 {
       display: flex;
       flex-direction: column;
       align-items: center;
     }
+
+    .img2 .desktop{
+      display: none;
+    }
     
     .prize-text {
-      /* border: 1px solid red; */
-      width: 50%;
+      width: 80%;
+      text-align: center;
       padding-bottom: 6rem;
+      padding-top: 6rem;
     }
     
     /* -------PARTNERS AND SPONSORS------- */
@@ -1082,12 +1086,14 @@
     /* ------- PRIVACY POLICY BEGINS -------*/
     .policy {
       display: flex;
+      flex-direction: column;
       padding: 10rem 8rem;
     }
     
     .policy-text {
       flex: 1;
-      margin-right: 5rem;
+      margin-right: 0rem;
+      text-align: center;
     }
     
     .policy-img {
@@ -1096,7 +1102,7 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
-      margin-top: -25rem;
+      margin-top: 5rem;
       margin-right: -4rem;
     }
     
@@ -1155,9 +1161,9 @@
     }
     
     .policy-img .img {
-      position: absolute;
+      position: relative;
       width: 33.9375rem;
-      margin-top: 33rem;
+      margin-top: 0rem;
       margin-left: -2.5rem;
     }  
   }

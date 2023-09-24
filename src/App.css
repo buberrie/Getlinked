@@ -31,6 +31,14 @@ body {
   /* overflow-x: hidden; */
 }
 
+.desktop {
+  display: block;
+}
+
+.mobile {
+  display: none;
+}
+
 /* --------- UI DESIGNS (STARS AND PURPLE LENS) ---------- */
 .curly {
   position: relative;
@@ -552,6 +560,10 @@ body {
     font-size: 9px;
   }
 
+  .desktop {
+    display: none;
+  }
+
   .curly {
     position: relative;
     margin-left: 40%;
@@ -573,34 +585,29 @@ body {
   
   .rules-lens1 {
     position: absolute;
-    margin-left: -6rem;
-    margin-top: -25rem;
-    width: 60rem;
-    pointer-events: none;
+    margin-left: -8rem;
+    margin-top: -75rem;
+    width: 50rem;
   }
   
   .rules-lens2 {
     position: absolute;
-    margin-left: 15rem;
-    margin-top: 8rem;
-    width: 60rem;
-    pointer-events: none;
+    margin-left: 8rem;
+    margin-top: 38rem;
+    width: 42rem;
   }
   
   .criteria-lens1 {
-    position: absolute;
     margin-left: -10rem;
-    margin-top: 5rem;
-    width: 60rem;
-    pointer-events: none;
+    margin-top: 8rem;
+    width: 50rem;
   }
   
   .criteria-lens2 {
     position: absolute;
-    margin-left: -10rem;
-    margin-top: 23rem;
-    width: 60rem;
-    pointer-events: none;
+    margin-left: -.5rem;
+    margin-top: 35rem;
+    width: 50rem;
   }
   
   .sponsor-lens {

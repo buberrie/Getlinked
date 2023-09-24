@@ -88,6 +88,7 @@ footer {
 .logo {
   font-family: var(--header-font);
   font-size: 1.875rem;
+  padding-left: 0;
 }
 
 .logo-dark {
@@ -96,4 +97,105 @@ footer {
 
 small {
   font-size: 0.75rem;
+}
+
+@media only screen and (max-width: 640px) {  
+  .content {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 4rem;
+  }
+  
+  .content1 {
+    width: 100%;
+    margin-bottom: 3rem ;
+  }
+  
+  .content1 .intro {
+    margin-top: 0.5rem;
+    margin-bottom: 4rem;
+    font-size: 1rem;
+    line-height: 1.293rem;
+    width: 90%;
+  }
+  
+  .terms {
+    font-size: 0.75rem;
+    padding: 0.05rem 1rem;
+  }
+  
+  .terms.of-use {
+    border-right: 0.025rem solid var(--pink);
+    padding-left: 0;
+  }
+  
+  .content2 {
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+  
+  .useful-links {
+    font-size: 1rem;
+    color: var(--pink);
+  }
+  
+  .content2 li {
+    list-style: none;
+    font-size: .9rem;
+    margin: 1rem 0;
+  }
+  
+  .socials {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .follow {
+    font-size: .9rem;
+    margin-right: 0.5rem;
+    color: var(--pink);
+  }
+  
+  .socials .img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0 0.5rem;
+  }
+  
+  .content3 {
+    width: 18%;
+  }
+  
+  .content3 .info {
+    margin: 1rem 0;
+  }
+  
+  .content3 .info .detail {
+    font-size: 0.9rem;
+    line-height: 1.18425rem;
+  }
+  
+  .content3 .info .img {
+    width: 0.75rem;
+    /* height: 0.75rem; */
+  }
+  
+  .logo {
+    font-size: 1.875rem;
+    margin: 0;
+    padding-left: 0;
+  }
+  
+  .logo-dark {
+    color: var(--pink);
+  }
+  
+  small {
+    font-size: 0.75rem;
+  }
+  
 }

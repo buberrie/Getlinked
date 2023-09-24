@@ -196,3 +196,72 @@ span.error-message {
 form .btn .button {
   width: 100%;
 }
+
+@media only screen and (max-width: 640px) {
+  .register {
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 5rem 6rem 5rem;
+    gap: 7%;
+    justify-content: space-between;
+  }
+
+  .register-img {
+    width: 100%;
+    padding-top: 3rem;
+  }
+  
+  .register-img img {
+    margin-left: 0rem;
+    width: 40rem;
+    height: 45rem;
+    margin-bottom: 2rem;
+  }
+  
+  .register .form-container {
+    margin-right: 0rem;
+    padding: 7rem 6rem 6rem 6rem;
+    width: calc(100% - 14rem);
+    border-radius: 0.75rem;
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .register .form-container .heading {
+    font-family: var(--heading-font);
+    font-size: 2rem;
+    color: var(--pink);
+    margin-bottom: 3rem;
+  }
+  
+  .register .form-container .be-part {
+    display: flex;
+    font-size: 0.875rem;
+    align-items: baseline;
+    margin-bottom: 1rem;
+  }
+  
+  .walking-emoji {
+    padding: 0 1rem;
+    margin-left: 0.5rem;
+    border-bottom: 0.0625rem dotted var(--pink);
+  }
+  
+  .walking-emoji .img {
+    width: 1.625rem;
+    height: 1.625rem;
+    /* margin: 0 .5rem; */
+  }
+  
+  .register .form-container .subheading {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+  }
+  
+  .input-container {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  
+}
