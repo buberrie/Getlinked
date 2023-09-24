@@ -53,3 +53,49 @@
     width: 100%;
     margin-top: 2rem;
 }
+
+@media only screen and (max-width: 640px) {
+  .modal-wrapper {
+    height: 90vh;
+  }
+
+  .loader {
+    position: relative;
+    width: 15rem;
+  }
+  
+  .modal {
+    padding: 3rem;
+    width: calc(38.6875rem - 16rem);
+    height: calc(36.5rem - 11rem);
+  }
+  
+  .successful {
+    margin-top: -1rem;
+    margin-left: 3rem;
+  }
+  
+  .successful .man {
+    position: relative;
+    width: 11.0625rem;
+    height: 11.0625rem;
+    left: 1rem;
+    top: .8rem;
+  }
+  
+  .congrat {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin: 1.5rem 0;
+  }
+  
+  .tinny {
+      font-size: 0.775rem;
+  }
+  
+  .wink {
+      width: .95rem;
+      height: .95rem;
+  }
+  
+}

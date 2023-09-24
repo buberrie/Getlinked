@@ -13,3 +13,9 @@
     position: relative;
     width: 15rem;
   }
+
+  @media only screen and (max-width: 640px) {
+    .load-wrapper {
+      height: 90vh;
+    }
+  }
