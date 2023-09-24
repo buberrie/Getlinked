@@ -77,7 +77,6 @@ const ContactPage = () => {
         <img src={starPink} alt="" className="star-even star39" />
         <img src={star} alt="" className="star-odd star40" />
         <img src={starPurple} alt="" className="star-even star41" />
-        <img src={starWhite} alt="" className="star-odd star42" />
         <img src={purplelens3} alt="" className="contact-lens" />
         <div className="contact-info">
           <h1 className="heading">Get in touch</h1>
@@ -99,6 +98,7 @@ const ContactPage = () => {
             <br />
             08:00am - 05:00pm
           </p>
+          <div className="social-area">
           <span className="follow">Share on</span>
           <div className="socials">
             <a href="./https://instagram.com">
@@ -113,6 +113,7 @@ const ContactPage = () => {
             <a href="./https://instagram.com">
               <img src={linkedin} alt="" className="img" />
             </a>
+          </div>
           </div>
         </div>
         <form action="submit" onSubmit={handleSubmit}>

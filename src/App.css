@@ -641,11 +641,9 @@ body {
   }
   
   .contact-lens2 {
-    position: absolute;
-    margin-left: 43rem;
-    margin-top: 17rem;
+    right: 1rem;
+    top: 35rem;
     width: 40rem;
-    pointer-events: none;
   }
   
   .register-lens2 {
