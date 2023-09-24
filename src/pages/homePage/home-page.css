@@ -1035,53 +1035,33 @@
     }
     
     /* -------PARTNERS AND SPONSORS------- */
-    .partner-wrapper {
-      padding: 4rem 0;
-      border-bottom: var(--border-line);
-    }
-    
-    .partner-logo {
-      display: flex;
-      border-radius: 5px;
-      border: .15rem solid var(--pink);
+    /* .partner-logo {
       margin: 5rem;
-      padding: 8rem 6rem;
-      flex-wrap: wrap;
-      gap: 2rem;
-      justify-content: center;
-      align-items: center;
-    }
-    
-    .sta {
-      width: 14.08113rem;
-      height: 6.02975rem;
-      /* border: 1px solid red; */
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      padding: 4rem 2rem;
+      gap: 0rem;
     }
     
     .sta-img {
-      width: 8rem;
+      border: 1px solid red;
+      width: 5.5rem;
     }
     
     .sta-img2 {
-      width: 15rem;
+      border: 1px solid red;
+      width: 11rem;
     }
     
     .vertical {
-      width: 16.08113rem;
-      height: 0.25rem;
-      background: var(--pink);
-      margin: 0 .7rem;
+      width: 10.08113rem;
+      height: 0.10rem;
+      margin: 1.8rem;
     }
     
     .horizontal {
-      width: 0.25rem;
+      width: 0.10rem;
       height: 7.02975rem;
-      background: var(--pink);
-      margin-right: .5rem;
-    }
+      margin-right: .6rem;
+    } */
     
     /* ------- PRIVACY POLICY BEGINS -------*/
     .policy {
@@ -1149,4 +1129,160 @@
       justify-content: center;
     }
      
+  }
+
+  @media only screen and (min-width: 745px) and (max-width: 761px) {
+    /* -------PARTNERS AND SPONSORS------- */
+    .partner-logo {
+     margin: 5rem 8rem;
+     padding: 6rem 8rem;
+     gap: 1.8rem;
+   }
+   
+   .sta-img {
+     width: 8.5rem;
+   }
+   
+   .sta-img2 {
+     width: 15rem;
+   }
+   
+   .vertical {
+     width: 15.08113rem;
+     height: 0.18rem;
+     background: var(--pink);
+     margin: 0 .95rem;
+   }
+   
+   .horizontal {
+     width: 0.18rem;
+     height: 8.52975rem;
+     background: var(--pink);
+     margin-right: .3rem;
+   }
+ }
+
+  @media only screen and (min-width: 629px) and (max-width: 660px) {
+     /* -------PARTNERS AND SPONSORS------- */
+     .partner-logo {
+      margin: 5rem 6rem;
+      padding: 6rem 3rem;
+      gap: 1.8rem;
+    }
+    
+    .sta-img {
+      width: 7.5rem;
+    }
+    
+    .sta-img2 {
+      width: 13rem;
+    }
+    
+    .vertical {
+      width: 14.08113rem;
+      height: 0.18rem;
+      background: var(--pink);
+      margin: 0 .95rem;
+    }
+    
+    .horizontal {
+      width: 0.18rem;
+      height: 6.52975rem;
+      background: var(--pink);
+      margin-right: .3rem;
+    }
+  }
+
+  @media only screen and (min-width: 540px) and (max-width: 630px) {
+     /* -------PARTNERS AND SPONSORS------- */
+     .partner-logo {
+      margin: 5rem 6rem;
+      padding: 4rem 2rem;
+      gap: .2rem;
+    }
+    
+    .sta-img {
+      /* border: 1px solid red; */
+      width: 6rem;
+    }
+    
+    .sta-img2 {
+      /* border: 1px solid red; */
+      width: 11.5rem;
+    }
+    
+    .vertical {
+      width: 11.08113rem;
+      height: 0.15rem;
+      margin: 1.5rem;
+    }
+    
+    .horizontal {
+      width: 0.15rem;
+      height: 7.02975rem;
+      margin-right: .2rem;
+    }
+  }
+
+  @media only screen and (min-width: 465px) and (max-width: 540px) {
+     /* -------PARTNERS AND SPONSORS------- */
+     .partner-logo {
+      margin: 5rem 3rem;
+      padding: 4rem 1rem;
+      gap: .2rem;
+    }
+    
+    .sta-img {
+      /* border: 1px solid red; */
+      width: 5.5rem;
+    }
+    
+    .sta-img2 {
+      /* border: 1px solid red; */
+      width: 10.5rem;
+    }
+    
+    .vertical {
+      width: 11.58113rem;
+      height: 0.15rem;
+      margin: 1.3rem;
+    }
+    
+    .horizontal {
+      width: 0.15rem;
+      height: 6.52975rem;
+      margin-right: 0rem;
+    }
+  }
+
+
+  @media only screen and (min-width: 465px) and (max-width: 465px) {
+     /* -------PARTNERS AND SPONSORS------- */
+     .partner-logo {
+      margin: 5rem 3rem;
+      padding: 4rem 1rem;
+      gap: .2rem;
+    }
+    
+    .sta-img {
+      /* border: 1px solid red; */
+      width: 5.5rem;
+    }
+    
+    .sta-img2 {
+      /* border: 1px solid red; */
+      width: 10.5rem;
+    }
+    
+    .vertical {
+      width: 11.58113rem;
+      height: 0.15rem;
+      margin: 1.3rem;
+    }
+    
+    .horizontal {
+      width: 0.15rem;
+      height: 6.52975rem;
+      margin-right: 0rem;
+    }
   }
