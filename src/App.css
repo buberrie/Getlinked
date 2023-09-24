@@ -578,9 +578,9 @@ body {
   
   .purple-lens2 {
     width: 35rem;
-    margin-left: 8.5rem;
-    margin-top: -9rem;
-    transform: rotate(180deg);
+    margin-left: 2rem;
+    margin-top: -15rem;
+  transform: rotate(90deg);
   }
   
   .rules-lens1 {
@@ -592,9 +592,9 @@ body {
   
   .rules-lens2 {
     position: absolute;
-    margin-left: 6rem;
-    margin-top: 38rem;
-    width: 40rem;
+    margin-left: 2rem;
+    margin-top: 48rem;
+    width: 35rem;
   }
   
   .criteria-lens1 {
@@ -605,9 +605,9 @@ body {
   
   .criteria-lens2 {
     position: absolute;
-    margin-left: -.5rem;
-    margin-top: 35rem;
-    width: 50rem;
+    margin-left: -1rem;
+    margin-top: 45rem;
+    width: 40rem;
   }
   
   .sponsor-lens {
@@ -620,7 +620,7 @@ body {
   
   .sponsor-lens2 {
     position: absolute;
-    margin-left: 13rem;
+    margin-left: 10rem;
     margin-top: -10rem;
     width: 35rem;
     pointer-events: none;
