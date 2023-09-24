@@ -5,7 +5,7 @@ import hamburger from '../../assets/hamburger.svg'
 import close from '../../assets/close.svg'
 import { useLocation } from 'react-router-dom';
 
-const NavBar = ({onShow, navShow}) => {
+const NavBar = ({onShow, navShow}, props) => {
 
       // Get the current route location
     const location = useLocation();
@@ -28,7 +28,7 @@ const NavBar = ({onShow, navShow}) => {
             </Link>
             </div>
             <img src={hamburger} alt="NavBar" className="hamburger mobile" onClick={toggleNavbar} navShow={navShow}/>
-            <div className={`nav-bar ${navShow ? 'open' : ''} ${isOpen ? 'slide-in' : 'slide-out'}`} navShow={navShow}>
+            <div className={`nav-bar ${navShow ? 'open' : ''} ${isOpen ? 'slide-in' : 'slide-out'}`} navShow={navShow}  >
                 <div className="close-back mobile" onClick={toggleNavbar}>
                 <img src={close} alt="close" className="close mobile" />
                 </div>

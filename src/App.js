@@ -20,7 +20,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div >
       <Router>
         <NavBar onShow={onShow} navShow={navShow} />
         <Routes>
