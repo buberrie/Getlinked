@@ -200,7 +200,7 @@ form .btn .button {
   .register {
     display: flex;
     flex-direction: column;
-    padding: 6rem 5rem 6rem 5rem;
+    padding: 6rem 3rem 6rem 3rem;
     gap: 7%;
     justify-content: space-between;
   }
