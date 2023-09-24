@@ -635,11 +635,9 @@ body {
   }
   
   .contact-lens {
-    position: absolute;
-    margin-left: -15rem;
-    margin-top: -15rem;
-    width: 50rem;
-    pointer-events: none;
+    left: 10rem;
+    top: 25rem;
+    width: 40rem;
   }
   
   .contact-lens2 {
@@ -651,11 +649,9 @@ body {
   }
   
   .register-lens2 {
-    position: absolute;
-    margin-left: 47rem;
-    margin-top: 30rem;
+    right: 1rem;
+    bottom: -85rem;
     width: 35rem;
-    pointer-events: none;
   }
   
   .star-odd {
@@ -897,26 +893,26 @@ body {
   .star39 {
     width: 2rem;
     height: 2rem;
-    margin-left: 3rem;
+    left: 3rem;
     margin-top: -2rem;
   }
   .star40 {
     width: 2.2rem;
     height: 2.2rem;
-    margin-left: 70rem;
-    margin-top: -10rem;
+    left: -22rem;
+    top: 50rem;
   }
   .star41 {
     width: 2.5rem;
     height: 2.5rem;
-    margin-left: 28.5rem;
-    margin-top: 35rem;
+    left: -10.5rem;
+    top: 30rem;
   }
   .star42 {
     width: 2.5rem;
     height: 2.5rem;
-    margin-left: 75rem;
-    margin-top: 50rem;
+    left: -30rem;
+    top: 90rem;
   }
   .star43 {
     width: 2rem;

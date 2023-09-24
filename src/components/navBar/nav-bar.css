@@ -149,13 +149,13 @@ background-clip: text;
       align-items: flex-start;
       margin-top: 22rem;
       border-radius: 5px;
-      transition: transform 0.3s ease-in-out;
+      transition: transform 0.3s ease-out;
     }
 
     .nav-bar.open {
       display: flex;
-      -webkit-animation: slideIn 500ms;
-      animation: slideIn 500ms;
+      -webkit-animation: slideIn 300ms;
+      animation: slideIn 300ms;
     }
     
     /* Slide-out animation */

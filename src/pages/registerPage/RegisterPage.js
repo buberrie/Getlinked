@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import "./register-page.css";
 import Modal from "../../components/modal/Modal";
 import Process from "../../components/processing/Process";
-import NavBar from "../../components/navBar/NavBar";
 import purplelens2 from "../../assets/Purple-Lens-Flare2.png";
 import purplelens3 from "../../assets/Purple-Lens-Flare3.png";
 import star from "../../assets/star.png";
@@ -227,7 +226,7 @@ const RegisterPage = () => {
               </span>
             </div>
             <div
-              className={`input-container ${
+              className={`input-container select1 ${
                 focusedInputs.category ? "focused" : ""
               }`}>
               <label htmlFor="category" className="select-label">
@@ -247,7 +246,7 @@ const RegisterPage = () => {
               </select>
             </div>
             <div
-              className={`input-container ${
+              className={`input-container select2 ${
                 focusedInputs.group_size ? "focused" : ""
               }`}>
               <label htmlFor="size" className="select-label">
