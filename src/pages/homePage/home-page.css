@@ -673,13 +673,13 @@
     .header-title {
       justify-content: center;
       width: calc(80%);
-      font-size: 1.5rem;
-      margin: 4rem 0rem;
+      font-size: 1.6rem;
+      margin: 4rem -2rem;
     }
     
     .curvey {
       width: 12.5rem;
-      margin-right: -27rem;
+      margin-right: -15rem;
       animation: slideIn 4.5s;
     }
     
