@@ -39,7 +39,7 @@ const Homepage = () => {
   // Calculate the time remaining
   function calculateTimeRemaining() {
     // Set the date we're counting down to
-    const countDownDate = new Date("September 27, 2023 00:00:00").getTime();
+    const countDownDate = new Date("September 30, 2023 00:00:00").getTime();
     // Set the date we're counting down from
     const now = new Date().getTime();
     // remaining time
