@@ -131,7 +131,7 @@ const RegisterPage = () => {
 
   return (
     <>
-       <Process />
+      {loader && <Process />}
       {modal && <Modal closeModal={closeModal} />}
       <div className="register">
         <img src={starPink} alt="" className="star-even star39" />
